@@ -19,12 +19,6 @@ import com.example.demo.entities.Contact;
 public class ContactRestService {
 @Autowired
 private ContactRepository contactRepository;
-
-
-@RequestMapping(value="/MSG",method=RequestMethod.GET)
-public String getContact(){
-	return "hello";
-}
 	
 @RequestMapping(value="/contact",method=RequestMethod.GET)
 public List <Contact> getContact(){
