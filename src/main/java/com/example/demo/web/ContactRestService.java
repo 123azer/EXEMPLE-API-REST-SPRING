@@ -23,7 +23,7 @@ private ContactRepository contactRepository;
 
 @RequestMapping(value="/MSG",method=RequestMethod.GET)
 public String getContact(){
-	return "hello2";
+	return "hello;
 }
 	
 @RequestMapping(value="/contact",method=RequestMethod.GET)
